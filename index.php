@@ -42,19 +42,39 @@
          <h3>JokeNetwork Docs</h3>
          <p>JokeNetworks FAQ included questions that weren't asked frequently.</p>
          <p>Recently we brought FAQ back to live as JokeNetwork Docs - While the original idea of our faq page was the documentation of our own services, it is now mainly used as an overview and documentation page for MetaExtensions listed in the WHATWG HTML Standard.</p>
+         <p>Maintained by <a href="//github.com/philipbrembeck">@philipbrembeck</a>, <a href="//github.com/gitgauner">@gitgauner</a> &amp; <a href="//github.com/fastrcloud">@fastrcloud</a> </p>
          <a href="//faq.jokenetwork.de">See it in action</a> / <a href="//github.com/jokenetwork/faq">Contribute on GitHub</a> 
        </div>
        <div class="flexbox">
-         <div class="presenter"><img src="assets/img/docs.png" alt="JokeNetwork Docs"></div>
+         <div class="hero"><img src="assets/img/docs.svg" alt="JokeNetwork Docs"></div>
        </div>
       </section> 
+      <section class="projects">
+       <div class="flexbox">
+         <div class="hero2"><img src="assets/img/vegancheck.svg" alt="JokeNetwork Docs"></div>
+       </div>
+       <div class="flexbox">
+         <h3>Community based: VeganCheck.me</h3>
+         <p>VeganCheck.me is made by our vegan friend <a href="//philipbrembeck.com">@philipbrembeck</a> and will be further developed by JokeNetwork.</p>
+         <p>VeganCheck.me scans the EAN or UPC-Code of a product and simply tells you if it's vegan or not.</p>
+         <p>Planned for the future:</p>
+         <ul>
+           <li>Open-source JavaScript-based scanner</li>
+           <li>Text search</li>
+           <li>Options for vegetarians</li>
+           <li>Sustainability assessment</li>
+           <li>Nutri-Score integration</li>
+         </ul>
+         <a href="//vegancheck.me">See it in action</a> / <a href="//github.com/philipbrembeck/VeganCheck.me">Contribute on GitHub</a> 
+       </div>
+      </section> 
+
 
        <section class="contact" name="contact">
        <h1>Wanna hang out?</h1>
        <h3>Contribute to one of our projects on <a href="//github.com/jokenetwork">GitHub</a> or drop us an <a href="mailto:info@jokenetwork.de">e-mail</a>.</h3>
        <h3>Everyone is welcome 💖</h3>
       </section> 
-
     </div>
 
 
