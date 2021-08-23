@@ -1,0 +1,97 @@
+// Selection color
+::-moz-selection {
+    background-color: #ff9f43;
+    color: #fff
+}
+
+::selection {
+    background-color: #ff9f43;
+    color: #fff
+}
+
+// Define main body
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    font-weight: var(--body-fontweight);
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+    font-size: var(--body-fontsize);
+    word-wrap: break-word;
+    font-size: var(--body-font-size);
+}
+
+// Basic Links
+a {
+    text-decoration: none;
+    font-weight: var(--semibold-fontweight);
+    color: var(--link-color);
+    outline: 0;
+    transition: .8s;
+}
+
+a:hover {
+    color: var(--link-transition-color);
+}
+
+// Basic Animations
+body {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
