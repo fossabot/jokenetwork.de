@@ -1,0 +1,53 @@
+@media only screen and (max-width:48rem) {
+    :root {
+        --h1-font-size: 2.5rem;
+    }
+
+    header {
+        padding-top: 1.5rem;
+    }
+
+    section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    section.first {
+        padding-top: 1.5rem;
+        width: 90%;
+    }
+
+    .content {
+        .button {
+            width: auto;
+            max-width: 80%;
+        }
+    }
+
+    .left {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 3rem;
+    }
+
+    .right {
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    section.projects {
+        padding-top: 5rem;
+        display: block;
+    }
+
+    .flexbox:first-child {
+        padding-bottom: 2rem;
+    }
+
+    footer {
+        li:first-child {
+            padding-left: 0;
+        }
+    }
+}
