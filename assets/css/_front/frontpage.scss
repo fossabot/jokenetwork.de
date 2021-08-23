@@ -162,7 +162,7 @@ section.privacy h2 {
 }
 
 section.projects {
-    padding-top: 5rem;
+    padding-top: 7rem;
     display: flex;
 }
 
@@ -175,21 +175,36 @@ section.projects {
     margin-right: 3rem;
 }
 
-.presenter {
+.hero {
     border-radius: .5rem;
     background: rgb(95, 39, 205);
     background: linear-gradient(350deg, rgba(95, 39, 205, 1) 0%, rgba(238, 82, 83, 1) 100%);
     transform: rotate(3deg)
 }
 
-.presenter img {
+.hero img {
     max-width: 100%;
     border-radius: .5rem;
     transform: rotate(-5deg)
 }
 
+.hero2 {
+    border-radius: .5rem;
+    background: rgb(16,172,132);
+    background: linear-gradient(350deg, rgba(16,172,132,1) 0%, rgba(72,219,251,1) 100%);
+    transform: rotate(-3deg)
+}
+
+.hero2 img {
+    max-width: 100%;
+    border-radius: .5rem;
+    transform: rotate(4deg);
+    box-shadow: 0 .1rem .4rem 0 rgba(0, 0, 0, 0.2);
+}
+
 section.contact {
     padding-top: 5rem;
+    padding-bottom: 5rem;
 
     h1 {
         background: rgb(95, 39, 205);
@@ -204,15 +219,18 @@ section.contact {
 
 .container {
     margin: 0 auto;
+    width: 100%;
 }
 
 footer {
-    margin-top: 5rem;
+    margin-top: auto;
     padding: 1rem;
     text-align: center;
     height: auto;
+    min-height:50px;
     background: #111;
     border-top: 1px solid #333;
+    z-index: 9999;
 
     p {
         font-size: 1rem;
