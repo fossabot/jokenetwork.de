@@ -39,6 +39,11 @@ a:hover {
     color: var(--link-transition-color);
 }
 
+// Basic elements
+hr {
+    border: 0.01rem dotted grey;
+}
+
 // Basic Animations
 body {
     animation: fadeIn 5s;

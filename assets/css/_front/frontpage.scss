@@ -135,25 +135,36 @@ section.first h2 {
     line-height: var(--h2-line-height);
 }
 
-section.privacy {
+section.text {
     padding-top: 3rem;
-    width: 60%;
-}
+    width: 80%;
+    display: flex;
 
-section.privacy h1 {
-    font-size: var(--h1-font-size);
-    background: rgb(95, 39, 205);
-    background: linear-gradient(350deg, rgba(95, 39, 205, 1) 0%, rgba(238, 82, 83, 1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    outline: 0;
-}
+    .flexbox {
+    flex: 1;
+    text-align: left;
+    }
 
-section.privacy h2 {
-    font-size: var(--h2-font-size);
-    line-height: var(--h2-line-height);
+    .flexbox:first-child {
+        margin-right: 1rem;
+    }
+
+    h1 {
+        font-size: var(--h1-font-size);
+        background: rgb(95, 39, 205);
+        background: linear-gradient(350deg, rgba(95, 39, 205, 1) 0%, rgba(238, 82, 83, 1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        outline: 0;
+    }
+
+    h2 {
+        font-size: var(--h2-font-size);
+        line-height: var(--h2-line-height);
+    }
+
 }
 
 .description {
@@ -227,7 +238,6 @@ footer {
     padding: 1rem;
     text-align: center;
     height: auto;
-    min-height:50px;
     background: #111;
     border-top: 1px solid #333;
     z-index: 9999;

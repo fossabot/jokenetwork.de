@@ -44,7 +44,10 @@
         li:first-child {
             padding-left: 0;
         }
-    
+    }
+
+    section.text {
+        display: block;
     }
 }
 
