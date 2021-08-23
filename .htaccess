@@ -1,0 +1,23 @@
+RewriteBase /
+<ifModule mod_headers.c>
+    Header set Access-Control-Allow-Origin: https://analytics.jokenetwork.de
+</ifModule>
+
+# Dateiendungen ausblenden
+RewriteEngine on
+
+# Redirect "datenschutz" to "privacy-policy"
+RewriteRule datenschutz privacy-policy [L,R=301]
+
+# UTF-8 Endcoding
+AddDefaultCharset UTF-8
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+ErrorDocument 404 /404.php
